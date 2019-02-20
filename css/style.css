@@ -4,7 +4,6 @@ body {
 
 nav {
   background-color: yellow;
-  background color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -49,8 +48,8 @@ h3 {
   width: 100%;
 }
 
-/*** id #last-three is meant to overwrite the bg color
+/*** class last-three is meant to overwrite the bg color
  of the class element for the last three div sets***/
-#last-three {
+.last-three {
   background-color: blue;
 }
